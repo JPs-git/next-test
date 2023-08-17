@@ -1,0 +1,15 @@
+.bottom-nav {
+  width: 100vw;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .nav-btn {
+    background-color: blue;
+    cursor: pointer;
+  }
+  .active {
+    background-color: pink;
+  } 
+}
